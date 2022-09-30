@@ -99,20 +99,27 @@ Secondary metabolism in Cannabis. Isvett Josefina Flores-Sanchez Æ Robert Verpo
 Bautista, J.L., Yu, S. and Tian, L., 2021. Flavonoids in Cannabis sativa: Biosynthesis, bioactivities, and biotechnology. ACS omega, 6(8), pp.5119-5123. <https://doi.org/10.1021/acsomega.1c00318>
 
 
+### Fall 2022
+
+
+
+- 2022-10-06 Reading resources, how to find things to read    
+https://www.sciencenews.org/    
+https://www.science.org/journal/science    
+https://www.nature.com/    
+https://scholar.google.com/    
+https://www.google.com/alerts    
+https://apsjournals.apsnet.org/    
+https://journals.ashs.org/    
+https://twitter.com/ - follow authors and journals    
+
 
 
 
 ### Summer 2022
 
 
-
-
-
-
-- 2022-09-15
-
-
-- 2022-09-01 Lieberman-Aiden, E., Van Berkum, N.L., Williams, L., Imakaev, M., Ragoczy, T., Telling, A., Amit, I., Lajoie, B.R., Sabo, P.J., Dorschner, M.O. and Sandstrom, R., 2009. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. science, 326(5950), pp.289-293. <https://doi.org/10.1126/science.1181369>
+- 2022-09-15 Lieberman-Aiden, E., Van Berkum, N.L., Williams, L., Imakaev, M., Ragoczy, T., Telling, A., Amit, I., Lajoie, B.R., Sabo, P.J., Dorschner, M.O. and Sandstrom, R., 2009. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. science, 326(5950), pp.289-293. <https://doi.org/10.1126/science.1181369>
 
 
 - 2022-08-18 Avni, R., Nave, M., Barad, O., Baruch, K., Twardziok, S.O., Gundlach, H., Hale, I., Mascher, M., Spannagl, M., Wiebe, K. and Jordan, K.W., 2017. Wild emmer genome architecture and diversity elucidate wheat evolution and domestication. Science, 357(6346), pp.93-97. <https://doi.org/10.1126/science.aan0032>
