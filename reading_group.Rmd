@@ -111,6 +111,7 @@ Bautista, J.L., Yu, S. and Tian, L., 2021. Flavonoids in Cannabis sativa: Biosyn
 Phased, chromosome-scale genome assemblies of tetraploid potato reveal a complex genome, transcriptome, and predicted proteome landscape underpinning genetic diversity
 https://doi.org/10.1016/j.molp.2022.01.003
 
+<<<<<<< HEAD
 - 2022-11-17
 Genome assembly of six polyploid potato genomes
 https://www.nature.com/articles/s41597-020-0428-4
@@ -134,6 +135,26 @@ https://doi.org/10.1038/s41588-022-01172-2
 - 20222-10-13
 Improved pea reference genome and pan-genome highlight genomic features and evolutionary characteristics
 https://doi.org/10.1038/s41588-022-01172-2
+=======
+- 2022-11-17 
+
+- 2022-11-10 
+
+- 2022-11-03 Methods: Haplotype-phased genome and evolution of phytonutrient pathways of tetraploid blueberry
+https://doi.org/10.1093/gigascience/giz012
+
+
+- 2022-10-27 Haplotype-phased genome and evolution of phytonutrient pathways of tetraploid blueberry
+https://doi.org/10.1093/gigascience/giz012
+
+- 2022-10-20 Methods: Improved pea reference genome and pan-genome highlight genomic features and evolutionary characteristics
+https://doi.org/10.1038/s41588-022-01172-2
+
+
+- 2022-10-13 Improved pea reference genome and pan-genome highlight genomic features and evolutionary characteristics
+https://doi.org/10.1038/s41588-022-01172-2
+
+>>>>>>> 4b8b96d09feb40883ed0453ee0b88b1a769c1a57
 
 - 2022-10-06 Reading resources, how to find things to read    
 https://www.sciencenews.org/    
