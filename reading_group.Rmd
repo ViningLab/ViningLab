@@ -4,7 +4,7 @@ date: "`r format(Sys.time(), '%Y, %B %d')`"
 output:
   html_document:
     toc: true
-    toc_depth: 2
+    toc_depth: 3
     code_folding: hide
 editor_options: 
   chunk_output_type: console
@@ -99,9 +99,41 @@ Secondary metabolism in Cannabis. Isvett Josefina Flores-Sanchez Æ Robert Verpo
 Bautista, J.L., Yu, S. and Tian, L., 2021. Flavonoids in Cannabis sativa: Biosynthesis, bioactivities, and biotechnology. ACS omega, 6(8), pp.5119-5123. <https://doi.org/10.1021/acsomega.1c00318>
 
 
+### Winter 2023
+
+- 2023-01-12
+
+
+
 ### Fall 2022
 
+- 2022-12-01 
+Phased, chromosome-scale genome assemblies of tetraploid potato reveal a complex genome, transcriptome, and predicted proteome landscape underpinning genetic diversity
+https://doi.org/10.1016/j.molp.2022.01.003
 
+- 2022-11-17
+Genome assembly of six polyploid potato genomes
+https://www.nature.com/articles/s41597-020-0428-4
+
+- 2022-11-10
+Design and validation issues in RNA-seq experiments
+https://doi.org/10.1093/bib/bbr004
+
+- 2022-11-04
+Haplotype-phased genome and evolution of phytonutrient pathways of tetraploid blueberry
+https://doi.org/10.1093/gigascience/giz012
+
+- 2022-10-27
+Haplotype-phased genome and evolution of phytonutrient pathways of tetraploid blueberry
+https://doi.org/10.1093/gigascience/giz012
+
+- 20222-10-20
+Improved pea reference genome and pan-genome highlight genomic features and evolutionary characteristics
+https://doi.org/10.1038/s41588-022-01172-2
+
+- 20222-10-13
+Improved pea reference genome and pan-genome highlight genomic features and evolutionary characteristics
+https://doi.org/10.1038/s41588-022-01172-2
 
 - 2022-10-06 Reading resources, how to find things to read    
 https://www.sciencenews.org/    
