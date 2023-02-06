@@ -99,9 +99,27 @@ Secondary metabolism in Cannabis. Isvett Josefina Flores-Sanchez Æ Robert Verpo
 Bautista, J.L., Yu, S. and Tian, L., 2021. Flavonoids in Cannabis sativa: Biosynthesis, bioactivities, and biotechnology. ACS omega, 6(8), pp.5119-5123. <https://doi.org/10.1021/acsomega.1c00318>
 
 
+---
+
+
+```{r, include=FALSE}
+peeps <- c("kelly.vining@oregonstate.edu","Iovanna.Pandelova@oregonstate.edu","sam.talbot@oregonstate.edu","oluwafemi.omilani@oregonstate.edu","adigun.mcleod@oregonstate.edu","paul.skillin@oregonstate.edu")
+cat(
+  paste(sample(peeps, size = length(peeps)), collapse = "; ")
+  )
+```
+
+
 ### Winter 2023
 
-- 2023-01-12
+- 2023-02-09
+Fertility and Reproductive Pathways of Triploid Flowering Pears (Pyrus sp.)
+https://doi.org/10.21273/HORTSCI.51.8.968
+
+
+- 2023-02-02
+The Biochemistry of Phytocannabinoids and Metabolic Engineering of Their Production in Heterologous Systems
+https://doi.org/10.3390/ijms22052454
 
 
 ### Winter break 2022
