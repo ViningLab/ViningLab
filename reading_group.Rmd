@@ -112,6 +112,17 @@ cat(
 
 ### Winter 2023
 
+
+- 2023-02-23
+Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm
+https://doi.org/10.1038/s41592-020-01056-5
+
+
+- 2023-02-16
+Genome architecture and tetrasomic inheritance of autotetraploid potato
+https://doi.org/10.1016/j.molp.2022.06.009
+
+
 - 2023-02-09
 Fertility and Reproductive Pathways of Triploid Flowering Pears (Pyrus sp.)
 https://doi.org/10.21273/HORTSCI.51.8.968
