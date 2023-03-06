@@ -113,6 +113,16 @@ cat(
 ### Winter 2023
 
 
+- 2023-03-09
+Fully phased human genome assembly without parental data using single-cell strand sequencing and long reads
+https://doi.org/10.1038/s41587-020-0719-5
+
+
+- 2023-03-02
+Semi-automated assembly of high-quality diploid human reference genomes
+https://doi.org/10.1038/s41586-022-05325-5
+
+
 - 2023-02-23
 Haplotype-resolved de novo assembly using phased assembly graphs with hifiasm
 https://doi.org/10.1038/s41592-020-01056-5
