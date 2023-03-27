@@ -113,6 +113,15 @@ cat(
 ### Winter 2023
 
 
+- 2023-03-23
+Jaegle, B., Pisupati, R., Soto-Jiménez, L.M. et al. Extensive sequence duplication in Arabidopsis revealed by pseudo-heterozygosity. Genome Biol 24, 44 (2023).
+https://doi.org/10.1186/s13059-023-02875-3
+
+- 2023-03-16
+Healey, A.L., Piatkowski, B., Lovell, J.T. et al. Newly identified sex chromosomes in the Sphagnum (peat moss) genome alter carbon sequestration and ecosystem dynamics. Nat. Plants 9, 238–254 (2023).
+https://doi.org/10.1038/s41477-022-01333-5
+
+
 - 2023-03-09
 Fully phased human genome assembly without parental data using single-cell strand sequencing and long reads
 https://doi.org/10.1038/s41587-020-0719-5
