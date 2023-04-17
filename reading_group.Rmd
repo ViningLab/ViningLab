@@ -110,8 +110,23 @@ cat(
 ```
 
 
-### Winter 2023
+### Spring 2023
 
+
+- 2023-04-20
+Amanda R Stahlke, Jennifer Chang, Sivanandan Chudalayandi, Chan C Heu, Scott M Geib, Brian E Scheffler, Anna K Childers, Jeffrey A Fabrick, Chromosome-scale genome assembly of the pink bollworm, Pectinophora gossypiella, a global pest of cotton, G3 Genes|Genomes|Genetics, Volume 13, Issue 4, April 2023, jkad040.
+https://doi.org/10.1093/g3journal/jkad040
+
+- 2023-04-13
+Keilwagen, J., Lehnert, H., Berner, T. et al. Detecting major introgressions in wheat and their putative origins using coverage analysis. Sci Rep 12, 1908 (2022). 
+https://doi.org/10.1038/s41598-022-05865-w
+
+- 2023-04-06
+Jaegle, B., Pisupati, R., Soto-Jiménez, L.M. et al. Extensive sequence duplication in Arabidopsis revealed by pseudo-heterozygosity. Genome Biol 24, 44 (2023). 
+https://doi.org/10.1186/s13059-023-02875-3
+
+
+### Winter 2023
 
 - 2023-03-23
 Jaegle, B., Pisupati, R., Soto-Jiménez, L.M. et al. Extensive sequence duplication in Arabidopsis revealed by pseudo-heterozygosity. Genome Biol 24, 44 (2023).
