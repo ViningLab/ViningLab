@@ -110,7 +110,34 @@ cat(
 ```
 
 
+### Summer 2023
+
+
+- 2023-09-19
+
+- 2023-09-05
+
+- 2023-08-22
+
+- 2023-08-08
+
+- 2023-07-25
+Berman, P., de Haro, L.A., Jozwiak, A. et al. Parallel evolution of cannabinoid biosynthesis. Nat. Plants 9, 817–831 (2023).
+https://doi.org/10.1038/s41477-023-01402-3
+
+- 2023-07-11
+Liao, WW., Asri, M., Ebler, J. et al. A draft human pangenome reference. Nature 617, 312–324 (2023). 
+https://doi.org/10.1038/s41586-023-05896-x
+
+- 2023-06-27
+JBrowse 2: a modular genome browser with views of synteny and structural variation. Genome Biology (2023). https://doi.org/10.1186/s13059-023-02914-z
+
+
 ### Spring 2023
+
+- 2023-05-18
+Horvath, D. P., Clay, S. A., Swanton, C. J., Anderson, J. V., & Chao, W. S. (2023). Weed-induced crop yield loss: a new paradigm and new challenges. Trends in Plant Science.
+https://doi.org/10.1016/j.tplants.2022.12.014
 
 
 - 2023-04-20
