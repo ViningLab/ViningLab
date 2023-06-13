@@ -119,18 +119,24 @@ cat(
 
 - 2023-08-22
 
-- 2023-08-08
 
-- 2023-07-25
+- 2023-08-08
 Berman, P., de Haro, L.A., Jozwiak, A. et al. Parallel evolution of cannabinoid biosynthesis. Nat. Plants 9, 817–831 (2023).
 https://doi.org/10.1038/s41477-023-01402-3
 
-- 2023-07-11
+
+- 2023-07-25
 Liao, WW., Asri, M., Ebler, J. et al. A draft human pangenome reference. Nature 617, 312–324 (2023). 
 https://doi.org/10.1038/s41586-023-05896-x
 
-- 2023-06-27
+
+- 2023-07-11
 JBrowse 2: a modular genome browser with views of synteny and structural variation. Genome Biology (2023). https://doi.org/10.1186/s13059-023-02914-z
+
+
+- 2023-06-27
+Wang, D., Zheng, Z., Li, Y., Hu, H., Wang, Z., Du, X., ... & Yang, Y. (2021). Which factors contribute most to genome size variation within angiosperms?. Ecology and Evolution, 11(6), 2660-2668
+https://doi.org/10.1002/ece3.7222
 
 
 ### Spring 2023
