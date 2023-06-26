@@ -13,12 +13,21 @@ For simple tasks we may just go to NCBI: [NCBI BLAST](https://blast.ncbi.nlm.nih
 
 ## Links
 
+
 [BatchPrimer3](https://wheat.pw.usda.gov/demos/BatchPrimer3/)    
+[CRAN](https://cran.r-project.org/)    
+[Dia](http://dia-installer.de/) diagram editor    
+[GIMP](https://www.gimp.org/)    
 [GitHub docs](https://docs.github.com/en)    
-[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi).    
-[RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)    
 [GitHub Pages](https://resources.github.com/whitepapers/github-and-rstudio/)    
+[Helium](https://excellenceinbreeding.org/toolbox/tools/helium) Pedigree visualization    
+[Inkscape](https://inkscape.org/)    
+[LibreOffice](https://www.libreoffice.org/)    
+[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi).    
 [Phytozome]((https://phytozome-next.jgi.doe.gov))    
+[RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)    
+[Scribus](https://www.scribus.net/) desktop publishing    
+
 
 
 
