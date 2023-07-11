@@ -3,6 +3,8 @@ title: "Methods"
 author: "Brian J. Knaus"
 date: "7/28/2021"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 
@@ -29,7 +31,35 @@ For simple tasks we may just go to NCBI: [NCBI BLAST](https://blast.ncbi.nlm.nih
 [Scribus](https://www.scribus.net/) desktop publishing    
 
 
+## GTF files
+
+A common format for storing biological coordinate data, such as the chromosome, start and end position of a feature, is the GTF/GFF format.
+The General Feature Format (GFF) and the General Transfer Format (GTF) are similar formats that have technical differences.
+These technical details should be found online, such as [GFF on Wikipedia](https://en.wikipedia.org/wiki/General_feature_format) and [GFF/GTF File Format at ensembl](https://useast.ensembl.org/info/website/upload/gff.html).
+**Table 1** is an example GTF file produced by the [BRAKER pipeline](https://github.com/Gaius-Augustus/BRAKER).
 
 
+```{r, echo=FALSE}
+my_gtf <- read.table("W103_g1.gtf", header = FALSE, sep = "\t")
+
+library(kableExtra)
+kable(my_gtf, caption = "**Table 1.** Example GTF file produced by BRAKER including a single 'gene' (W103_g1) that consists of several features.") %>%
+  kable_styling("striped") %>% 
+  scroll_box(width = "800px", height = "600px")
+```
+
+
+```{r, include=FALSE}
+sort(table(my_gtf[, 3]), decreasing = TRUE)
+```
+
+
+The format does not include a 'header' but the specification does include names for the columns.
+For example, column 1 is the 'seqid' and in our case is the name of the sequence (contig, chromosome, etc.).
+Columns 4 and 5 are the start and end and are sorted so that column 4 is less than column 5, this is why column 7 specifies the strand.
+Column 3 is the 'type' and is important when extracting information from the file.
+The contents of this column are part of a 'controlled vocabulary' that we can reference at the [Sequence Ontology](http://www.sequenceontology.org/).
+This 'gene' consists of 1 'gene' record, 1 'transcript' record, as well as 1 'start_codon' and one 'stop_codon'.
+The gene also consists of 13 'CDS', 13 'exon', and 12 'intron' records.
 
 

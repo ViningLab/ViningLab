@@ -33,6 +33,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -309,6 +311,1333 @@ Pedigree visualization<br />
 <a href="https://www.rstudio.com/resources/cheatsheets/">RStudio
 Cheatsheets</a><br />
 <a href="https://www.scribus.net/">Scribus</a> desktop publishing</p>
+</div>
+<div id="gtf-files" class="section level2">
+<h2>GTF files</h2>
+<p>A common format for storing biological coordinate data, such as the
+chromosome, start and end position of a feature, is the GTF/GFF format.
+The General Feature Format (GFF) and the General Transfer Format (GTF)
+are similar formats that have technical differences. These technical
+details should be found online, such as <a
+href="https://en.wikipedia.org/wiki/General_feature_format">GFF on
+Wikipedia</a> and <a
+href="https://useast.ensembl.org/info/website/upload/gff.html">GFF/GTF
+File Format at ensembl</a>. <strong>Table 1</strong> is an example GTF
+file produced by the <a
+href="https://github.com/Gaius-Augustus/BRAKER">BRAKER pipeline</a>.</p>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; ">
+<table class="table table-striped" style="margin-left: auto; margin-right: auto;">
+<caption>
+<strong>Table 1.</strong> Example GTF file produced by BRAKER including
+a single ‘gene’ (W103_g1) that consists of several features.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+V1
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+V2
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+V3
+</th>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+V4
+</th>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+V5
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+V6
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+V7
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+V8
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+V9
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+gene
+</td>
+<td style="text-align:right;">
+13924
+</td>
+<td style="text-align:right;">
+18566
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+W103_g1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+transcript
+</td>
+<td style="text-align:right;">
+13924
+</td>
+<td style="text-align:right;">
+18566
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+W103_g1.t1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+stop_codon
+</td>
+<td style="text-align:right;">
+13924
+</td>
+<td style="text-align:right;">
+13926
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+0
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+13924
+</td>
+<td style="text-align:right;">
+13960
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+13924
+</td>
+<td style="text-align:right;">
+13960
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+13961
+</td>
+<td style="text-align:right;">
+14096
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+14097
+</td>
+<td style="text-align:right;">
+14168
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+14097
+</td>
+<td style="text-align:right;">
+14168
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+14169
+</td>
+<td style="text-align:right;">
+14974
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+14975
+</td>
+<td style="text-align:right;">
+15055
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+14975
+</td>
+<td style="text-align:right;">
+15055
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+15056
+</td>
+<td style="text-align:right;">
+15272
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+15273
+</td>
+<td style="text-align:right;">
+15323
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+15273
+</td>
+<td style="text-align:right;">
+15323
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+15324
+</td>
+<td style="text-align:right;">
+15486
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+15487
+</td>
+<td style="text-align:right;">
+15581
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+0
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+15487
+</td>
+<td style="text-align:right;">
+15581
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+15582
+</td>
+<td style="text-align:right;">
+16447
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+16448
+</td>
+<td style="text-align:right;">
+16528
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+0
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+16448
+</td>
+<td style="text-align:right;">
+16528
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+16529
+</td>
+<td style="text-align:right;">
+16623
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+16624
+</td>
+<td style="text-align:right;">
+16708
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+16624
+</td>
+<td style="text-align:right;">
+16708
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+16709
+</td>
+<td style="text-align:right;">
+16943
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+16944
+</td>
+<td style="text-align:right;">
+17023
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+0
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+16944
+</td>
+<td style="text-align:right;">
+17023
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+17024
+</td>
+<td style="text-align:right;">
+17138
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+17139
+</td>
+<td style="text-align:right;">
+17253
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+17139
+</td>
+<td style="text-align:right;">
+17253
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+17254
+</td>
+<td style="text-align:right;">
+17849
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+17850
+</td>
+<td style="text-align:right;">
+17920
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+0
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+17850
+</td>
+<td style="text-align:right;">
+17920
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+17921
+</td>
+<td style="text-align:right;">
+18012
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+18013
+</td>
+<td style="text-align:right;">
+18100
+</td>
+<td style="text-align:left;">
+0.97
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+18013
+</td>
+<td style="text-align:right;">
+18100
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+18101
+</td>
+<td style="text-align:right;">
+18323
+</td>
+<td style="text-align:left;">
+0.97
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+18324
+</td>
+<td style="text-align:right;">
+18396
+</td>
+<td style="text-align:left;">
+0.54
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+2
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+18324
+</td>
+<td style="text-align:right;">
+18396
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+intron
+</td>
+<td style="text-align:right;">
+18397
+</td>
+<td style="text-align:right;">
+18559
+</td>
+<td style="text-align:left;">
+0.45
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+CDS
+</td>
+<td style="text-align:right;">
+18560
+</td>
+<td style="text-align:right;">
+18566
+</td>
+<td style="text-align:left;">
+0.68
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+0
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+exon
+</td>
+<td style="text-align:right;">
+18560
+</td>
+<td style="text-align:right;">
+18566
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+000000F|arrow
+</td>
+<td style="text-align:left;">
+AUGUSTUS
+</td>
+<td style="text-align:left;">
+start_codon
+</td>
+<td style="text-align:right;">
+18564
+</td>
+<td style="text-align:right;">
+18566
+</td>
+<td style="text-align:left;">
+.
+</td>
+<td style="text-align:left;">
+<ul>
+<li></td>
+<td style="text-align:left;">
+0
+</td>
+<td style="text-align:left;">
+transcript_id W103_g1.t1; gene_id W103_g1;
+</td>
+</tr>
+</tbody>
+</table>
+</div></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>The format does not include a ‘header’ but the specification does
+include names for the columns. For example, column 1 is the ‘seqid’ and
+in our case is the name of the sequence (contig, chromosome, etc.).
+Columns 4 and 5 are the start and end and are sorted so that column 4 is
+less than column 5, this is why column 7 specifies the strand. Column 3
+is the ‘type’ and is important when extracting information from the
+file. The contents of this column are part of a ‘controlled vocabulary’
+that we can reference at the <a
+href="http://www.sequenceontology.org/">Sequence Ontology</a>. This
+‘gene’ consists of 1 ‘gene’ record, 1 ‘transcript’ record, as well as 1
+‘start_codon’ and one ‘stop_codon’. The gene also consists of 13 ‘CDS’,
+13 ‘exon’, and 12 ‘intron’ records.</p>
 </div>
 
 
