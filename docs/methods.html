@@ -31,6 +31,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
@@ -219,6 +220,9 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
 
 
@@ -276,6 +280,14 @@ $(document).ready(function () {
 
 <div id="header">
 
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
 
 
 <h1 class="title toc-ignore">Methods</h1>
@@ -284,11 +296,25 @@ $(document).ready(function () {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#blast-notes" id="toc-blast-notes">Blast notes</a></li>
+<li><a href="#de-novo-assembly" id="toc-de-novo-assembly">De novo
+assembly</a></li>
+<li><a href="#links" id="toc-links">Links</a></li>
+<li><a href="#gtf-files" id="toc-gtf-files">GTF files</a></li>
+</ul>
+</div>
 
 <div id="blast-notes" class="section level2">
 <h2>Blast notes</h2>
 <p>For simple tasks we may just go to NCBI: <a
 href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST</a>.</p>
+</div>
+<div id="de-novo-assembly" class="section level2">
+<h2>De novo assembly</h2>
+<p><a href="denovo_assembly/denovo_assembly.html">De novo
+assembly</a></p>
 </div>
 <div id="links" class="section level2">
 <h2>Links</h2>
@@ -1673,6 +1699,11 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

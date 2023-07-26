@@ -2,7 +2,11 @@
 title: "Methods"
 author: "Brian J. Knaus"
 date: "7/28/2021"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    code_folding: hide
 editor_options: 
   chunk_output_type: console
 ---
@@ -11,6 +15,11 @@ editor_options:
 ## Blast notes
 
 For simple tasks we may just go to NCBI: [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi).
+
+
+## De novo assembly
+
+[De novo assembly](denovo_assembly/denovo_assembly.html)
 
 
 ## Links
