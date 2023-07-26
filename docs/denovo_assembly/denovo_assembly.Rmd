@@ -29,7 +29,7 @@ Currently it is typical to receive these libraries in a text file that is in the
 Files in the FASTA and FASTQ format are simple text files, which can be opened with text editors, where the contents of the files are in a specified structure.
 A FASTQ file contains records where each record spans 4 lines.
 The first line begins with the '@' symbol followed by a unique identifier.
-In the below example we see the first record with teh line '@m64047_220219_192831/18/ccs' as the unique identifier.
+In the below example we see the first record with the line '\@m64047_220219_192831/18/ccs' as the unique identifier.
 Compare this with other lines that begin with '@' to validate it's uniqueness.
 The second line contains a sequence which typically consists of the characters A, C, G, and T.
 The third line begins with '+' and may be blank or may repeat the unique identifier from the first line.
@@ -78,10 +78,12 @@ TTAATTAAGATACTTTATATGTCTAAATTAATAAATATATTAAATGATAATATTATTTAATAATTATTTTTAAGTTATTA
 
 ## Evaluating Sequence Libraries
 
+
 ccs.Q20 directory
 
+
 When we receive these files from a sequencing run we will want to characterize their properties to help determine if downstream processing, such as assembly, may be successful.
-These properties may include teh following.
+These properties may include the following.
 
 - Number of sequences
 - Number of nucleotides
@@ -102,13 +104,24 @@ knitr::include_graphics("PacBioRice_library.png")
 
 
 
+## Running hifiasm
+
+```
+hifiasm -o myassembly_hifiasm -t 16 --n-hap 2 ../m64013e_210227_222017.hifi_reads.fastq.gz
+```
+
+Options include the following.    
+-o STR       prefix of output files [hifiasm.asm]    
+-t INT       number of threads [1]    
+--primary    output a primary assembly and an alternate assembly    
+--n-hap      INT number of haplotypes [2]    
 
 
 
 ## Evaluating Assemblies
 
 
-```{r, echo=FALSE, fig.align='center', fig.cap="**Figure 1.** Summary of a FASTA file.", out.width = '70%'}
+```{r, echo=FALSE, fig.align='center', fig.cap="**Figure 2.** Summary of a FASTA file.", out.width = '70%'}
 knitr::include_graphics("cbdrx_nuccomp.png")
 ```
 
