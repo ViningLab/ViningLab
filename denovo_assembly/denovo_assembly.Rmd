@@ -1,0 +1,111 @@
+---
+title: "De novo assembly with hifiasm"
+date: "`r format(Sys.time(), '%Y, %B %d')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    code_folding: hide
+editor_options: 
+  chunk_output_type: console
+bibliography: ../ViningLab.bib
+---
+
+
+## Background
+
+
+
+
+## Evaluating Sequence Libraries
+
+ccs.Q20 directory
+
+
+The product from a sequencing center is frequently referred to as a 'library'.
+This library may be delivered in several forms.
+Currently it is typical to receive these libraries in a text file that is in the FASTA or FASTQ format, and may be compressed using gzip.
+
+
+Files in the FASTA and FASTQ format are simple text files, which can be opened with text editors, where the contents of the files are in a specified structure.
+A FASTQ file contains records where each record spans 4 lines.
+The first line begins with the '@' symbol followed by a unique identifier.
+In the below example we see the first record with teh line '@m64047_220219_192831/18/ccs' as the unique identifier.
+Compare this with other lines that begin with '@' to validate it's uniqueness.
+The second line contains a sequence which typically consists of the characters A, C, G, and T.
+The third line begins with '+' and may be blank or may repeat the unique identifier from the first line.
+The forth line is a quality string where each nucleotide on the second line has a corresponding character on the third line to represent the quality of each nucleotide.
+These quality characters are s single character that represents a probability that the nucleotide is correct.
+Because it is encoded as a single character it needs to be looked up to translate it from this character to a probability.
+
+
+```
+@m64047_220219_192831/18/ccs
+CATACCAGGTCGCACTGCCATGACATGTACAACCTCATCCCAGCTCAGGCTCACTCCTGTTAAGCTTTGCCTTTCCTTTA
++
+rcc&6jqY~wmlUP[AWMvmqnxlfGg]^[VoWx[gW`>W\S9htZ_W~jbmsju6dggMkHm_b-utc\~7YgRi&YWB
+@m64047_220219_192831/24/ccs
+TTGTTAAATATTTAATTATTTATAAATTATAAGTTTAAAAATGATATTTTTTCTATATATATATATCATTTTTTCCTTAT
++
+z~gd~O~~~~)~bk~n~^Pq~~~O~fa~umI~~\~~/~~~bw~x[eFp~~~~}~~~|Ix~|~u~~t~e:ryz~pOqi~{V
+@m64047_220219_192831/34/ccs
+GAATTTACCAAGTAAATCCACTAACTTATTAATTCCTCATTGCATCCACCATAGAACTTGGAATTGCACTCTCAGTTATG
++
+hK\CbcYFd<RH@Bb]V7\VOIAZN@XWIWGU?DAMWQT=VRRVW7\@7X@KWP4T6MbFeBR1@=NDMWD0QVH)PRJ4
+@m64047_220219_192831/35/ccs
+TTAATTAAGATACTTTATATGTCTAAATTAATAAATATATTAAATGATAATATTATTTAATAATTATTTTTAAGTTATTA
++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~O~~~~~~~~~~~~~o~~~~~~~~~~_~~~~~~~~~~~~~
+```
+
+Biological sequence data stored in the FASTA format is similar to the FASTQ format but lacks a quality score for each nucleotide.
+The first line begins with the character '>' followed by a unique identifier.
+The next line contains the sequence.
+The FASTA format may accomodate sequence data in a single line or wrapped over several lines.
+The below example displays a single line for each sequence, as is currently typical for sequence libraries.
+
+
+```
+>m64047_220219_192831/18/ccs
+CATACCAGGTCGCACTGCCATGACATGTACAACCTCATCCCAGCTCAGGCTCACTCCTGTTAAGCTTTGCCTTTCCTTTA
+>m64047_220219_192831/24/ccs
+TTGTTAAATATTTAATTATTTATAAATTATAAGTTTAAAAATGATATTTTTTCTATATATATATATCATTTTTTCCTTAT
+>m64047_220219_192831/34/ccs
+GAATTTACCAAGTAAATCCACTAACTTATTAATTCCTCATTGCATCCACCATAGAACTTGGAATTGCACTCTCAGTTATG
+>m64047_220219_192831/35/ccs
+TTAATTAAGATACTTTATATGTCTAAATTAATAAATATATTAAATGATAATATTATTTAATAATTATTTTTAAGTTATTA
+```
+
+
+When we receive these files from a sequencing run we will want to characterize their properties to help determine if downstream processing, such as assembly, may be successful.
+These properties may include teh following.
+
+- Number of sequences
+- Number of nucleotide
+- How these nucleotides are arranged into sequences
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Evaluating Assemblies
+
+
+
+## Links
+
+
+
+
+
