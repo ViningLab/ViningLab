@@ -206,7 +206,10 @@ knitr::include_graphics("cbdrx_nuccomp.png")
         2326    Total BUSCO groups searched 
 ```
 
-Benchmarking Universal Single-Copy Orthologue.
+Benchmarking Universal Single-Copy Orthologue (BUSCO) uses a database of conserved genes and quesries these sequences against an assembly to determine if these sequences are present and reports this information as a measure of gene space completeness.
+There are actually several databases that are focused on different parts of the phylogeny of life, so it is important to determine which database was used when making comparisons among assemblies.
+The relative abundance of these genes reported found in a new assembly as single copy, duplicated (two or more copies), fragmented, or missing are taken as a measure of assembly quality.
+
 
 - [BUSCO](https://busco.ezlab.org/) at EZlab
 
@@ -220,13 +223,19 @@ knitr::include_graphics("CBDRx_rmmask_Finola_rmmask.plot.png")
 ```
 
 
+Dotplots are a method to compare two assemblies (FASTA files) to one another.
+They begin with aligning the sequences using minimap2 and are then visualized with several options.
+An important detail is that the comparisons are typically 'local' alignments, meaning that the part of the query and the part of the target are reported, but this does not mean that the entire sequences had a good match.
+This means that the sequences in the files are typically represented by many matching subsequences in the plot.
+A line extending from the lower left to the upper right represents a line of identity, but this line may consist of many segments, so interpretationj will be important.
+
+
+- [minimap2](https://github.com/lh3/minimap2) on GitHub
 - [D-Genies](https://dgenies.toulouse.inra.fr/)
-- [pafr](https://cran.r-project.org/web/packages/pafr/index.html)
+- [pafr](https://cran.r-project.org/web/packages/pafr/index.html) on CRAN
 - [dotPlotly](https://github.com/tpoorten/dotPlotly)
 
 
 
-
 ## References
-
 

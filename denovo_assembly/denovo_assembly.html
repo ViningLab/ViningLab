@@ -666,7 +666,16 @@ counter</li>
         18      Fragmented BUSCOs (F)                      
         121     Missing BUSCOs (M)                         
         2326    Total BUSCO groups searched </code></pre>
-<p>Benchmarking Universal Single-Copy Orthologue.</p>
+<p>Benchmarking Universal Single-Copy Orthologue (BUSCO) uses a database
+of conserved genes and quesries these sequences against an assembly to
+determine if these sequences are present and reports this information as
+a measure of gene space completeness. There are actually several
+databases that are focused on different parts of the phylogeny of life,
+so it is important to determine which database was used when making
+comparisons among assemblies. The relative abundance of these genes
+reported found in a new assembly as single copy, duplicated (two or more
+copies), fragmented, or missing are taken as a measure of assembly
+quality.</p>
 <ul>
 <li><a href="https://busco.ezlab.org/">BUSCO</a> at EZlab</li>
 </ul>
@@ -680,9 +689,20 @@ counter</li>
 assemblies (FASTA files).
 </p>
 </div>
+<p>Dotplots are a method to compare two assemblies (FASTA files) to one
+another. They begin with aligning the sequences using minimap2 and are
+then visualized with several options. An important detail is that the
+comparisons are typically ‘local’ alignments, meaning that the part of
+the query and the part of the target are reported, but this does not
+mean that the entire sequences had a good match. This means that the
+sequences in the files are typically represented by many matching
+subsequences in the plot.</p>
 <ul>
+<li><a href="https://github.com/lh3/minimap2">minimap2 on
+GitHub</a></li>
 <li><a href="https://dgenies.toulouse.inra.fr/">D-Genies</a></li>
-<li><a href="https://cran.r-project.org/web/packages/pafr/index.html">pafr</a></li>
+<li><a href="https://cran.r-project.org/web/packages/pafr/index.html">pafr on
+CRAN</a></li>
 <li><a href="https://github.com/tpoorten/dotPlotly">dotPlotly</a></li>
 </ul>
 </div>
