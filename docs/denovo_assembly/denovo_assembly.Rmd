@@ -236,6 +236,16 @@ A line extending from the lower left to the upper right represents a line of ide
 - [dotPlotly](https://github.com/tpoorten/dotPlotly)
 
 
+## SyRI 
+
+Synteny and Rearrangement Identifier
+
+
+- [SyRI](https://github.com/schneebergerlab/syri) on GitHub
+- [SyRI](https://schneebergerlab.github.io/syri/) on GitHub pages
+- [plotsr](https://github.com/schneebergerlab/plotsr) on GitHub
+
+
 
 ## References
 
