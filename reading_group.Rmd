@@ -110,15 +110,24 @@ cat(
 ```
 
 
+### Fall 2023
+
+
+
+- 2023-10-03
+
+
 ### Summer 2023
 
-
-- 2023-09-19
-
 - 2023-09-05
+Leveraging Single-Cell Populations to Uncover the Genetic Basis of Complex Traits
+Mark A.A. Minow, Alexandre P. Marand, Robert J. Schmitz
+Annual Review of Genetics 2023 57:1
+https://doi.org/10.1146/annurev-genet-022123-110824
 
 - 2023-08-22
-
+"The Evolution of Plant Secretory Structures and Emergence of Terpenoid Chemical Diversity"
+https://doi.org/10.1146/annurev-arplant-043014-114639
 
 - 2023-08-08
 Berman, P., de Haro, L.A., Jozwiak, A. et al. Parallel evolution of cannabinoid biosynthesis. Nat. Plants 9, 817–831 (2023).
