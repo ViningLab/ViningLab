@@ -112,9 +112,30 @@ cat(
 
 ### Fall 2023
 
+- 2023-11-07
+Regularized multi-trait multi-locus linear mixed models for genome-wide association studies and genomic selection in crops
+Aurélie C. Lozano1, Hantian Ding2, Naoki Abe1 and Alexander E. Lipka3*
+BMC Bioinformatics
+(2023) 24:399
+https://doi.org/10.1186/s12859-023-05519-2
 
 
-- 2023-10-03
+- 2023-10-24
+Genome-wide association mapping and genomic prediction for late blight and potato cyst nematode resistance in potato (Solanum tuberosum L.)
+Salej Sood1* Vinay Bhardwaj1 Aarti Bairwa1 Dalamu1 Sanjeev Sharma1 Ashwani K. Sharma1 Ashwani Kumar1 Mehi Lal2 Vinod Kumar1
+Front. Plant Sci., 04 October 2023
+Sec. Plant Pathogen Interactions
+Volume 14 - 2023
+https://doi.org/10.3389/fpls.2023.1211472
+
+
+- 2023-10-17
+Genome-wide association mapping and genomic prediction for late blight and potato cyst nematode resistance in potato (Solanum tuberosum L.)
+Salej Sood1* Vinay Bhardwaj1 Aarti Bairwa1 Dalamu1 Sanjeev Sharma1 Ashwani K. Sharma1 Ashwani Kumar1 Mehi Lal2 Vinod Kumar1
+Front. Plant Sci., 04 October 2023
+Sec. Plant Pathogen Interactions
+Volume 14 - 2023
+https://doi.org/10.3389/fpls.2023.1211472
 
 
 ### Summer 2023
