@@ -112,7 +112,7 @@ cat(
 
 ### Fall 2023
 
-- 2023-11-07
+- 2023-11-14
 Regularized multi-trait multi-locus linear mixed models for genome-wide association studies and genomic selection in crops
 Aurélie C. Lozano1, Hantian Ding2, Naoki Abe1 and Alexander E. Lipka3*
 BMC Bioinformatics (2023) 24:399
