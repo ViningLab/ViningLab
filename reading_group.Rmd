@@ -37,6 +37,8 @@ Also see: [CQLS tips](https://software.cqls.oregonstate.edu/tips/posts/)
 
 
 
+
+
 ### Candidate reading
 
 **CRISPR cas9**
@@ -110,8 +112,32 @@ cat(
 ```
 
 
-### Summer 2024
 
+### Fall 2024
+
+
+- 2024-11-13
+Stefan Kusch, Lina Pesch, Ralph Panstruga, 
+Comprehensive Phylogenetic Analysis Sheds Light on the Diversity and Origin of the MLO Family of Integral Membrane Proteins, 
+Genome Biology and Evolution, 
+Volume 8, Issue 3, March 2016, 
+Pages 878–895, 
+https://doi.org/10.1093/gbe/evw036
+
+
+- 2024-11-06
+Owen, L. C., Suchoff, D. H., & Chen, H. 
+(2023). 
+A Novel Method for Stimulating Cannabis sativa L. Male Flowers from Female Plants. 
+Plants, 12(19), 3371.
+https://doi.org/10.3390/plants12193371
+
+
+- 2024-10-30
+Alexandra J. Weisberg et al.,
+Unexpected conservation and global transmission of agrobacterial virulence plasmids. 
+Science368, eaba5256(2020). 
+DOI:10.1126/science.aba5256
 
 
 ### Spring 2024
